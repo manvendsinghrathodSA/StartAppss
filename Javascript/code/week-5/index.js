@@ -120,13 +120,6 @@ let students = [
   { name: "Dilpreet", rollNumber: 7, marks: 55 },
 ];
 
-// Q1 - Return only the names of students in capital
-
-// Solution 1 : Traditional for() loop
-let namees = [];
-for (let index = 0; index < studentRecords.length; index++){
-     namees.push(students[index].name.toUpperCase());
-}
 
 console.log(names);
 
